@@ -1,0 +1,12 @@
+{
+"name":"HTML Annotator",
+"description":"Annotation tool",
+"version":"0.0.1",
+"manifest_version":2,
+"content_scripts": [
+    {
+      "matches": ["http://*/*","https://*/*"],
+      "js": ["annotator.js"]
+    }
+  ]
+}
